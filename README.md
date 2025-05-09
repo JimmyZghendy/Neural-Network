@@ -1,2 +1,2 @@
 # Info441
-Info441: Machine Learning TP/Projects
+Info441: Machine Learning Projects

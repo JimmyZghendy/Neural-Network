@@ -1,2 +1,4 @@
 *.whl
 *.keras
+*.npz
+*txt

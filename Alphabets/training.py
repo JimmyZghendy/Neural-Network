@@ -56,7 +56,7 @@ model.compile(
 )
 
 # 7. Train the model
-history = model.fit(train_ds, validation_data=val_ds, epochs=15)
+history = model.fit(train_ds, validation_data=val_ds, epochs=30)
 
 
 save_model(model, "my_model.keras")
@@ -69,4 +69,4 @@ plt.xlabel("Epoch")
 plt.ylabel("Accuracy")
 plt.legend()
 plt.grid(True)
-plt.show()
+plt.show() 
